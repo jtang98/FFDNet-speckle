@@ -57,7 +57,7 @@ def main():
     # Preparation
     # ----------------------------------------
 
-    noise_level_img = 15                 # noise level for noisy image
+    noise_level_img = 10                 # noise level for noisy image
     noise_level_model = noise_level_img  # noise level for model
     model_name = 'ffdnet_gray'           # 'ffdnet_gray' | 'ffdnet_color' | 'ffdnet_color_clip' | 'ffdnet_gray_clip'
     testset_name = 'set_gaussian'        # test set,  'bsd68' | 'cbsd68' | 'set12'
