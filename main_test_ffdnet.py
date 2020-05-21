@@ -14,9 +14,11 @@ from utils import utils_image as util
 Spyder (Python 3.6)
 PyTorch 1.1.0
 Windows 10 or Linux
+
 Kai Zhang (cskaizhang@gmail.com)
 github: https://github.com/cszn/KAIR
         https://github.com/cszn/FFDNet
+
 @article{zhang2018ffdnet,
   title={FFDNet: Toward a fast and flexible solution for CNN-based image denoising},
   author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei},
@@ -27,8 +29,10 @@ github: https://github.com/cszn/KAIR
   year={2018},
   publisher={IEEE}
 }
+
 % If you have any question, please feel free to contact with me.
 % Kai Zhang (e-mail: cskaizhang@gmail.com; github: https://github.com/cszn)
+
 by Kai Zhang (12/Dec./2019)
 '''
 
@@ -57,10 +61,10 @@ def main():
     # Preparation
     # ----------------------------------------
 
-    noise_level_img = 10                 # noise level for noisy image
+    noise_level_img = 15                 # noise level for noisy image
     noise_level_model = noise_level_img  # noise level for model
     model_name = 'ffdnet_gray'           # 'ffdnet_gray' | 'ffdnet_color' | 'ffdnet_color_clip' | 'ffdnet_gray_clip'
-    testset_name = 'set_gaussian'        # test set,  'bsd68' | 'cbsd68' | 'set12'
+    testset_name = 'bsd68'               # test set,  'bsd68' | 'cbsd68' | 'set12'
     need_degradation = True              # default: True
     show_img = False                     # default: False
 
