@@ -6,6 +6,7 @@ Created on Wed Apr  4 13:12:23 2018
 @author: emasasso
 """
 import numpy as np
+import skimage.io
 
 def injectspeckle_amplitude(img,L):
     rows = img.shape[0]
@@ -18,6 +19,8 @@ def injectspeckle_amplitude(img,L):
     ima_speckle_amplitude = np.multiply(img,s_amplitude)
     return ima_speckle_amplitude
 
-im = np.load('denoised_lely.npy')
-speckled_image = injectspeckle_amplitude(im,1)
-np.save('noisy_lely.npy',speckled_image)
+im = skimage.io.imread('testsets/set5/woman.bmp')
+im = 0.2125 * im[:,:,0] + 0.7154 * im[:,:,1] + 0.0721 * im[:,:,2]
+speckled_image = injectspeckle_amplitude(im, 5)
+speckled_image = speckled_image.astype('uint8')
+skimage.io.imsave('testsets/set_speckle/woman.bmp',speckled_image)
