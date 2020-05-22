@@ -1,0 +1,8 @@
+20-05-22 13:29:18.254 : Model path: model_zoo/ffdnet_gray.pth
+20-05-22 13:29:18.254 : model_name:ffdnet_gray, model sigma:15, image sigma:15
+20-05-22 13:29:18.254 : testsets/set_gaussian
+20-05-22 13:40:16.055 : Model path: model_zoo/ffdnet_gray.pth
+20-05-22 13:40:16.057 : model_name:ffdnet_gray, model sigma:15, image sigma:15
+20-05-22 13:40:16.057 : testsets/set_gaussian
+20-05-22 13:40:17.159 : lena.png - PSNR: 33.40 dB; SSIM: 0.8895.
+20-05-22 13:40:17.166 : Average PSNR/SSIM(RGB) - set_gaussian_ffdnet_gray - PSNR: 33.40 dB; SSIM: 0.8895
