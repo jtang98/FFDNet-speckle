@@ -31,4 +31,4 @@ def noisy(noise_typ,image, monochanel = False):
         noisy = image + image * gauss
         return noisy
   else:
-      print('Bad boy...')
+        print('Bad boy...')
