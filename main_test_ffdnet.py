@@ -61,7 +61,7 @@ def main():
     # Preparation
     # ----------------------------------------
 
-    noise_level_img = 150                # noise level for noisy image
+    noise_level_img = 15.0              # noise level for noisy image
     noise_level_model = noise_level_img  # noise level for model
     model_name = 'ffdnet_gray'           # 'ffdnet_gray' | 'ffdnet_color' | 'ffdnet_color_clip' | 'ffdnet_gray_clip'
     testset_name = 'set_speckle'         # test set,  'bsd68' | 'cbsd68' | 'set12'
@@ -141,6 +141,12 @@ def main():
         img_name, ext = os.path.splitext(os.path.basename(img))
         # logger.info('{:->4d}--> {:>10s}'.format(idx+1, img_name+ext))
         img_L = util.imread_uint(img, n_channels=n_channels)
+
+        # Passage au log
+        img_L = np.log(img_L + 10**(-10))
+        img_L = (img_L * 255.0 / (np.max(img_L) + 10**(-10))).astype('int')
+        # Fin passage au log
+
         img_L = util.uint2single(img_L)
 
         if need_degradation:  # degradation process
@@ -185,6 +191,11 @@ def main():
         # ------------------------------------
         # save results
         # ------------------------------------
+
+        # Passage à l'exp
+        img_E = np.exp(img_E).astype('int')
+        img_E = (img_E * 255.0 / (np.max(img_E) + 10**(-10))).astype('int')
+        # Fin passage à l'exp
 
         util.imsave(img_E, os.path.join(E_path, img_name+ext))
 
