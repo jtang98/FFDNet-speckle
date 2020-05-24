@@ -61,7 +61,7 @@ def main():
     # Preparation
     # ----------------------------------------
 
-    noise_level_img = 15.0              # noise level for noisy image
+    noise_level_img = 0.22132296         # noise level for noisy image
     noise_level_model = noise_level_img  # noise level for model
     model_name = 'ffdnet_gray'           # 'ffdnet_gray' | 'ffdnet_color' | 'ffdnet_color_clip' | 'ffdnet_gray_clip'
     testset_name = 'set_speckle'         # test set,  'bsd68' | 'cbsd68' | 'set12'
@@ -193,8 +193,8 @@ def main():
         # ------------------------------------
 
         # Passage à l'exp
-        img_E = np.exp(img_E).astype('int')
-        img_E = (img_E * 255.0 / (np.max(img_E) + 10**(-10))).astype('int')
+        #img_E = np.exp(img_E).astype('int')
+        #img_E = (img_E * 255.0 / (np.max(img_E) + 10**(-10))).astype('int')
         # Fin passage à l'exp
 
         util.imsave(img_E, os.path.join(E_path, img_name+ext))
