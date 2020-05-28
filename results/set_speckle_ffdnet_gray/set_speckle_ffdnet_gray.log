@@ -1,207 +1,37 @@
-20-05-22 15:27:12.986 : Model path: model_zoo/ffdnet_gray.pth
-20-05-22 15:27:12.986 : model_name:ffdnet_gray, model sigma:15, image sigma:15
-20-05-22 15:27:12.987 : testsets/set_speckle
-20-05-22 15:27:14.001 : baby.bmp - PSNR: 25.44 dB; SSIM: 0.8882.
-20-05-22 15:27:14.293 : bird.bmp - PSNR: 26.83 dB; SSIM: 0.8553.
-20-05-22 15:27:14.527 : butterfly.bmp - PSNR: 25.60 dB; SSIM: 0.9113.
-20-05-22 15:27:14.797 : head.bmp - PSNR: 27.54 dB; SSIM: 0.8225.
-20-05-22 15:27:15.065 : woman.bmp - PSNR: 26.06 dB; SSIM: 0.9110.
-20-05-22 15:27:15.066 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 26.30 dB; SSIM: 0.8776
-20-05-22 15:27:48.142 : Model path: model_zoo/ffdnet_gray.pth
-20-05-22 15:27:48.142 : model_name:ffdnet_gray, model sigma:150, image sigma:150
-20-05-22 15:27:48.142 : testsets/set_speckle
-20-05-22 15:27:49.170 : baby.bmp - PSNR: 14.50 dB; SSIM: 0.1413.
-20-05-22 15:27:49.458 : bird.bmp - PSNR: 19.01 dB; SSIM: 0.2916.
-20-05-22 15:27:49.700 : butterfly.bmp - PSNR: 15.02 dB; SSIM: 0.2718.
-20-05-22 15:27:49.992 : head.bmp - PSNR: 19.47 dB; SSIM: 0.3003.
-20-05-22 15:27:50.287 : woman.bmp - PSNR: 15.89 dB; SSIM: 0.2839.
-20-05-22 15:27:50.288 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 16.78 dB; SSIM: 0.2578
-20-05-22 15:28:23.269 : Model path: model_zoo/ffdnet_gray.pth
-20-05-22 15:28:23.269 : model_name:ffdnet_gray, model sigma:30, image sigma:30
-20-05-22 15:28:23.269 : testsets/set_speckle
-20-05-22 15:28:24.545 : baby.bmp - PSNR: 21.03 dB; SSIM: 0.7314.
-20-05-22 15:28:24.860 : bird.bmp - PSNR: 23.14 dB; SSIM: 0.6769.
-20-05-22 15:28:25.106 : butterfly.bmp - PSNR: 21.25 dB; SSIM: 0.7924.
-20-05-22 15:28:25.414 : head.bmp - PSNR: 23.96 dB; SSIM: 0.6549.
-20-05-22 15:28:25.764 : woman.bmp - PSNR: 21.52 dB; SSIM: 0.7932.
-20-05-22 15:28:25.765 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 22.18 dB; SSIM: 0.7298
-20-05-22 15:28:43.460 : Model path: model_zoo/ffdnet_gray.pth
-20-05-22 15:28:43.460 : model_name:ffdnet_gray, model sigma:50, image sigma:50
-20-05-22 15:28:43.461 : testsets/set_speckle
-20-05-22 15:28:44.463 : baby.bmp - PSNR: 18.27 dB; SSIM: 0.5652.
-20-05-22 15:28:44.762 : bird.bmp - PSNR: 21.31 dB; SSIM: 0.5265.
-20-05-22 15:28:45.066 : butterfly.bmp - PSNR: 18.49 dB; SSIM: 0.6454.
-20-05-22 15:28:45.352 : head.bmp - PSNR: 22.04 dB; SSIM: 0.5117.
-20-05-22 15:28:45.623 : woman.bmp - PSNR: 18.89 dB; SSIM: 0.6449.
-20-05-22 15:28:45.624 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 19.80 dB; SSIM: 0.5787
-20-05-22 15:29:51.346 : Model path: model_zoo/ffdnet_gray.pth
-20-05-22 15:29:51.346 : model_name:ffdnet_gray, model sigma:150, image sigma:150
-20-05-22 15:29:51.347 : testsets/set_speckle
-20-05-22 15:29:52.361 : baby.bmp - PSNR: 14.50 dB; SSIM: 0.1413.
-20-05-22 15:29:52.645 : bird.bmp - PSNR: 19.01 dB; SSIM: 0.2916.
-20-05-22 15:29:52.895 : butterfly.bmp - PSNR: 15.02 dB; SSIM: 0.2718.
-20-05-22 15:29:53.173 : head.bmp - PSNR: 19.47 dB; SSIM: 0.3003.
-20-05-22 15:29:53.475 : woman.bmp - PSNR: 15.89 dB; SSIM: 0.2839.
-20-05-22 15:29:53.475 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 16.78 dB; SSIM: 0.2578
-20-05-24 14:59:45.607 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 14:59:45.607 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 14:59:45.607 : testsets/set_speckle
-20-05-24 14:59:46.581 : baby.bmp - PSNR: 5.47 dB; SSIM: 0.0122.
-20-05-24 15:00:18.400 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:00:18.400 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:00:18.400 : testsets/set_speckle
-20-05-24 15:00:19.377 : baby.bmp - PSNR: 5.69 dB; SSIM: 0.0230.
-20-05-24 15:00:33.378 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:00:33.378 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:00:33.378 : testsets/set_speckle
-20-05-24 15:00:34.298 : baby.bmp - PSNR: 5.69 dB; SSIM: 0.0245.
-20-05-24 15:00:59.986 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:00:59.987 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:00:59.987 : testsets/set_speckle
-20-05-24 15:01:01.011 : baby.bmp - PSNR: 5.69 dB; SSIM: 0.0245.
-20-05-24 15:01:59.412 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:01:59.413 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:01:59.413 : testsets/set_speckle
-20-05-24 15:02:00.363 : baby.bmp - PSNR: 5.69 dB; SSIM: 0.0245.
-20-05-24 15:02:57.832 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:02:57.832 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:02:57.832 : testsets/set_speckle
-20-05-24 15:02:58.789 : baby.bmp - PSNR: 7.60 dB; SSIM: 0.1373.
-20-05-24 15:02:59.113 : bird.bmp - PSNR: 7.48 dB; SSIM: 0.1391.
-20-05-24 15:02:59.354 : butterfly.bmp - PSNR: 7.39 dB; SSIM: 0.1613.
-20-05-24 15:02:59.625 : head.bmp - PSNR: 7.86 dB; SSIM: 0.1353.
-20-05-24 15:02:59.893 : woman.bmp - PSNR: 8.38 dB; SSIM: 0.1648.
-20-05-24 15:02:59.898 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.74 dB; SSIM: 0.1476
-20-05-24 15:04:00.527 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:04:00.527 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:04:00.527 : testsets/set_speckle
-20-05-24 15:04:01.475 : baby.bmp - PSNR: 7.60 dB; SSIM: 0.1373.
-20-05-24 15:04:01.775 : bird.bmp - PSNR: 7.48 dB; SSIM: 0.1391.
-20-05-24 15:04:02.025 : butterfly.bmp - PSNR: 7.39 dB; SSIM: 0.1613.
-20-05-24 15:04:02.304 : head.bmp - PSNR: 7.86 dB; SSIM: 0.1353.
-20-05-24 15:04:02.569 : woman.bmp - PSNR: 8.38 dB; SSIM: 0.1648.
-20-05-24 15:04:02.573 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.74 dB; SSIM: 0.1476
-20-05-24 15:15:23.097 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:15:23.097 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:15:23.097 : testsets/set_speckle
-20-05-24 15:15:24.077 : baby.bmp - PSNR: 7.60 dB; SSIM: 0.1373.
-20-05-24 15:15:24.387 : bird.bmp - PSNR: 7.48 dB; SSIM: 0.1391.
-20-05-24 15:15:24.621 : butterfly.bmp - PSNR: 7.39 dB; SSIM: 0.1613.
-20-05-24 15:15:24.893 : head.bmp - PSNR: 7.86 dB; SSIM: 0.1353.
-20-05-24 15:15:25.163 : woman.bmp - PSNR: 8.38 dB; SSIM: 0.1648.
-20-05-24 15:15:25.168 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.74 dB; SSIM: 0.1476
-20-05-24 15:18:26.619 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:18:26.619 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:18:26.619 : testsets/set_speckle
-20-05-24 15:18:27.579 : baby.bmp - PSNR: 7.60 dB; SSIM: 0.1373.
-20-05-24 15:18:27.899 : bird.bmp - PSNR: 7.48 dB; SSIM: 0.1391.
-20-05-24 15:18:28.148 : butterfly.bmp - PSNR: 7.39 dB; SSIM: 0.1613.
-20-05-24 15:18:28.423 : head.bmp - PSNR: 7.86 dB; SSIM: 0.1353.
-20-05-24 15:18:28.703 : woman.bmp - PSNR: 8.38 dB; SSIM: 0.1648.
-20-05-24 15:18:28.708 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.74 dB; SSIM: 0.1476
-20-05-24 15:18:55.702 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:18:55.703 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:18:55.703 : testsets/set_speckle
-20-05-24 15:18:56.685 : baby.bmp - PSNR: 7.60 dB; SSIM: 0.1373.
-20-05-24 15:18:56.994 : bird.bmp - PSNR: 7.48 dB; SSIM: 0.1391.
-20-05-24 15:18:57.241 : butterfly.bmp - PSNR: 7.39 dB; SSIM: 0.1613.
-20-05-24 15:18:57.513 : head.bmp - PSNR: 7.86 dB; SSIM: 0.1353.
-20-05-24 15:18:57.789 : woman.bmp - PSNR: 8.38 dB; SSIM: 0.1648.
-20-05-24 15:18:57.793 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.74 dB; SSIM: 0.1476
-20-05-24 15:19:11.062 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:19:11.063 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:19:11.063 : testsets/set_speckle
-20-05-24 15:19:12.175 : baby.bmp - PSNR: 7.63 dB; SSIM: 0.1376.
-20-05-24 15:19:12.512 : bird.bmp - PSNR: 7.52 dB; SSIM: 0.1394.
-20-05-24 15:19:12.784 : butterfly.bmp - PSNR: 7.42 dB; SSIM: 0.1616.
-20-05-24 15:19:13.073 : head.bmp - PSNR: 7.90 dB; SSIM: 0.1358.
-20-05-24 15:19:13.367 : woman.bmp - PSNR: 8.42 dB; SSIM: 0.1652.
-20-05-24 15:19:13.373 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.78 dB; SSIM: 0.1479
-20-05-24 15:19:30.488 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:19:30.489 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:19:30.489 : testsets/set_speckle
-20-05-24 15:19:31.539 : baby.bmp - PSNR: 7.63 dB; SSIM: 0.1376.
-20-05-24 15:19:31.862 : bird.bmp - PSNR: 7.52 dB; SSIM: 0.1394.
-20-05-24 15:19:32.117 : butterfly.bmp - PSNR: 7.42 dB; SSIM: 0.1616.
-20-05-24 15:19:32.395 : head.bmp - PSNR: 7.90 dB; SSIM: 0.1358.
-20-05-24 15:19:32.672 : woman.bmp - PSNR: 8.42 dB; SSIM: 0.1652.
-20-05-24 15:19:32.678 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.78 dB; SSIM: 0.1479
-20-05-24 15:19:53.395 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:19:53.395 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:19:53.395 : testsets/set_speckle
-20-05-24 15:19:54.382 : baby.bmp - PSNR: 7.63 dB; SSIM: 0.1376.
-20-05-24 15:19:54.704 : bird.bmp - PSNR: 7.52 dB; SSIM: 0.1394.
-20-05-24 15:19:54.974 : butterfly.bmp - PSNR: 7.42 dB; SSIM: 0.1616.
-20-05-24 15:19:55.251 : head.bmp - PSNR: 7.90 dB; SSIM: 0.1358.
-20-05-24 15:19:55.526 : woman.bmp - PSNR: 8.42 dB; SSIM: 0.1652.
-20-05-24 15:19:55.526 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.78 dB; SSIM: 0.1479
-20-05-24 15:23:19.009 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:23:19.009 : model_name:ffdnet_gray, model sigma:74.8, image sigma:74.8
-20-05-24 15:23:19.009 : testsets/set_speckle
-20-05-24 15:23:36.229 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:23:36.230 : model_name:ffdnet_gray, model sigma:15.0, image sigma:15.0
-20-05-24 15:23:36.230 : testsets/set_speckle
-20-05-24 15:23:37.274 : baby.bmp - PSNR: 8.03 dB; SSIM: 0.4107.
-20-05-24 15:23:37.584 : bird.bmp - PSNR: 7.61 dB; SSIM: 0.2902.
-20-05-24 15:23:37.839 : butterfly.bmp - PSNR: 7.82 dB; SSIM: 0.4456.
-20-05-24 15:23:38.114 : head.bmp - PSNR: 7.95 dB; SSIM: 0.2555.
-20-05-24 15:23:38.381 : woman.bmp - PSNR: 8.72 dB; SSIM: 0.3924.
-20-05-24 15:23:38.382 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 8.02 dB; SSIM: 0.3589
-20-05-24 15:27:19.837 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:27:19.837 : model_name:ffdnet_gray, model sigma:15.0, image sigma:15.0
-20-05-24 15:27:19.837 : testsets/set_speckle
-20-05-24 15:27:20.825 : baby.bmp - PSNR: 5.70 dB; SSIM: 0.0273.
-20-05-24 15:27:31.472 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:27:31.472 : model_name:ffdnet_gray, model sigma:15.0, image sigma:15.0
-20-05-24 15:27:31.472 : testsets/set_speckle
-20-05-24 15:27:32.398 : baby.bmp - PSNR: 5.70 dB; SSIM: 0.0273.
-20-05-24 15:27:32.711 : bird.bmp - PSNR: 8.78 dB; SSIM: 0.1128.
-20-05-24 15:27:32.957 : butterfly.bmp - PSNR: 6.23 dB; SSIM: 0.0083.
-20-05-24 15:27:33.234 : head.bmp - PSNR: 9.64 dB; SSIM: 0.1523.
-20-05-24 15:27:33.510 : woman.bmp - PSNR: 6.04 dB; SSIM: 0.0719.
-20-05-24 15:27:33.512 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.28 dB; SSIM: 0.0745
-20-05-24 15:28:01.803 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:28:01.804 : model_name:ffdnet_gray, model sigma:15.0, image sigma:15.0
-20-05-24 15:28:01.804 : testsets/set_speckle
-20-05-24 15:28:02.779 : baby.bmp - PSNR: 5.70 dB; SSIM: 0.0273.
-20-05-24 15:28:03.092 : bird.bmp - PSNR: 8.78 dB; SSIM: 0.1128.
-20-05-24 15:28:03.336 : butterfly.bmp - PSNR: 6.23 dB; SSIM: 0.0083.
-20-05-24 15:28:03.609 : head.bmp - PSNR: 9.64 dB; SSIM: 0.1523.
-20-05-24 15:28:03.878 : woman.bmp - PSNR: 6.04 dB; SSIM: 0.0719.
-20-05-24 15:28:03.881 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.28 dB; SSIM: 0.0745
-20-05-24 15:28:39.031 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:28:39.031 : model_name:ffdnet_gray, model sigma:15.0, image sigma:15.0
-20-05-24 15:28:39.031 : testsets/set_speckle
-20-05-24 15:28:39.970 : baby.bmp - PSNR: 8.03 dB; SSIM: 0.4107.
-20-05-24 15:28:40.278 : bird.bmp - PSNR: 7.61 dB; SSIM: 0.2902.
-20-05-24 15:28:40.524 : butterfly.bmp - PSNR: 7.82 dB; SSIM: 0.4456.
-20-05-24 15:28:40.790 : head.bmp - PSNR: 7.95 dB; SSIM: 0.2555.
-20-05-24 15:28:41.063 : woman.bmp - PSNR: 8.72 dB; SSIM: 0.3924.
-20-05-24 15:28:41.065 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 8.02 dB; SSIM: 0.3589
-20-05-24 15:41:02.081 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:41:02.081 : model_name:ffdnet_gray, model sigma:41, image sigma:41
-20-05-24 15:41:02.081 : testsets/set_speckle
-20-05-24 15:41:03.121 : baby.bmp - PSNR: 7.82 dB; SSIM: 0.2427.
-20-05-24 15:41:03.450 : bird.bmp - PSNR: 7.55 dB; SSIM: 0.1696.
-20-05-24 15:41:03.695 : butterfly.bmp - PSNR: 7.60 dB; SSIM: 0.2746.
-20-05-24 15:41:03.971 : head.bmp - PSNR: 7.92 dB; SSIM: 0.1572.
-20-05-24 15:41:04.245 : woman.bmp - PSNR: 8.55 dB; SSIM: 0.2521.
-20-05-24 15:41:04.247 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.89 dB; SSIM: 0.2192
-20-05-24 15:41:59.516 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:41:59.516 : model_name:ffdnet_gray, model sigma:41, image sigma:41
-20-05-24 15:41:59.516 : testsets/set_speckle
-20-05-24 15:42:00.669 : baby.bmp - PSNR: 7.82 dB; SSIM: 0.2427.
-20-05-24 15:42:01.001 : bird.bmp - PSNR: 7.55 dB; SSIM: 0.1696.
-20-05-24 15:42:01.257 : butterfly.bmp - PSNR: 7.60 dB; SSIM: 0.2746.
-20-05-24 15:42:01.538 : head.bmp - PSNR: 7.92 dB; SSIM: 0.1572.
-20-05-24 15:42:01.813 : woman.bmp - PSNR: 8.55 dB; SSIM: 0.2521.
-20-05-24 15:42:01.814 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 7.89 dB; SSIM: 0.2192
-20-05-24 15:52:56.694 : Model path: model_zoo/ffdnet_gray.pth
-20-05-24 15:52:56.694 : model_name:ffdnet_gray, model sigma:0.22132296, image sigma:0.22132296
-20-05-24 15:52:56.694 : testsets/set_speckle
-20-05-24 15:52:57.606 : baby.bmp - PSNR: 8.18 dB; SSIM: 0.5882.
-20-05-24 15:52:57.902 : bird.bmp - PSNR: 7.69 dB; SSIM: 0.4875.
-20-05-24 15:52:58.149 : butterfly.bmp - PSNR: 7.96 dB; SSIM: 0.5940.
-20-05-24 15:52:58.432 : head.bmp - PSNR: 8.01 dB; SSIM: 0.4025.
-20-05-24 15:52:58.700 : woman.bmp - PSNR: 8.87 dB; SSIM: 0.5332.
-20-05-24 15:52:58.701 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 8.14 dB; SSIM: 0.5211
+20-05-28 17:49:27.453 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 17:49:27.453 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 17:49:27.453 : testsets/set_speckle
+20-05-28 17:49:28.910 : baby.bmp - PSNR: 19.17 dB; SSIM: 0.6851.
+20-05-28 17:49:28.911 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 19.17 dB; SSIM: 0.6851
+20-05-28 17:50:14.595 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 17:50:14.595 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 17:50:14.595 : testsets/set_speckle
+20-05-28 17:50:15.959 : baby.bmp - PSNR: 5.88 dB; SSIM: 0.0225.
+20-05-28 17:50:15.960 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 5.88 dB; SSIM: 0.0225
+20-05-28 17:55:30.262 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 17:55:30.262 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 17:55:30.262 : testsets/set_speckle
+20-05-28 17:55:31.672 : baby.bmp - PSNR: 5.88 dB; SSIM: 0.0225.
+20-05-28 17:55:31.963 : bird.bmp - PSNR: 5.13 dB; SSIM: 0.0249.
+20-05-28 17:55:32.200 : butterfly.bmp - PSNR: 4.91 dB; SSIM: 0.0209.
+20-05-28 17:55:32.467 : head.bmp - PSNR: 5.94 dB; SSIM: 0.0245.
+20-05-28 17:55:32.734 : woman.bmp - PSNR: 6.01 dB; SSIM: 0.0206.
+20-05-28 17:55:32.734 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 5.58 dB; SSIM: 0.0227
+20-05-28 17:58:27.581 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 17:58:27.581 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 17:58:27.581 : testsets/set_speckle
+20-05-28 17:58:28.933 : baby.bmp - PSNR: 5.14 dB; SSIM: 0.0213.
+20-05-28 17:58:29.220 : bird.bmp - PSNR: 3.95 dB; SSIM: 0.0221.
+20-05-28 17:58:29.458 : butterfly.bmp - PSNR: 4.83 dB; SSIM: 0.0188.
+20-05-28 17:58:29.724 : head.bmp - PSNR: 3.21 dB; SSIM: 0.0248.
+20-05-28 17:58:29.985 : woman.bmp - PSNR: 4.61 dB; SSIM: 0.0197.
+20-05-28 17:58:29.985 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 4.35 dB; SSIM: 0.0213
+20-05-28 17:59:05.418 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 17:59:05.418 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 17:59:05.418 : testsets/set_speckle
+20-05-28 17:59:06.762 : baby.bmp - PSNR: 15.24 dB; SSIM: 0.2191.
+20-05-28 17:59:07.125 : bird.bmp - PSNR: 20.07 dB; SSIM: 0.3153.
+20-05-28 17:59:07.391 : butterfly.bmp - PSNR: 16.35 dB; SSIM: 0.4251.
+20-05-28 17:59:07.671 : head.bmp - PSNR: 19.27 dB; SSIM: 0.2477.
+20-05-28 17:59:07.940 : woman.bmp - PSNR: 16.29 dB; SSIM: 0.2428.
+20-05-28 17:59:07.940 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 17.44 dB; SSIM: 0.2900

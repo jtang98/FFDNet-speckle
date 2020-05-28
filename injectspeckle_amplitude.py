@@ -19,14 +19,14 @@ def injectspeckle_amplitude(img,L):
     ima_speckle_amplitude = np.multiply(img,s_amplitude)
     return ima_speckle_amplitude
 
-'''im = skimage.io.imread('testsets/set5/woman.bmp')
+im = skimage.io.imread('testsets/set5/woman.bmp')
 im = 0.2125 * im[:,:,0] + 0.7154 * im[:,:,1] + 0.0721 * im[:,:,2]
 speckled_image = injectspeckle_amplitude(im, 5)
 speckled_image = speckled_image.astype('uint8')
-skimage.io.imsave('testsets/set_speckle/woman.bmp',speckled_image)'''
+skimage.io.imsave('testsets/set_speckle/woman.bmp',speckled_image)
 
 
-im = skimage.io.imread('testsets/set_speckle/baby.bmp')
+'''im = skimage.io.imread('testsets/set_speckle/baby.bmp')
 im = np.log(im + 10**(-15))
 im_ = im[0:50, 0:50]**2
-print(np.sqrt(np.var(np.ravel(im_), dtype=np.float64)))
+print(np.sqrt(np.var(np.ravel(im_), dtype=np.float64)))'''

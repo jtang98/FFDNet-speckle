@@ -58,9 +58,22 @@ class FFDNet(nn.Module):
         paddingRight = int(np.ceil(w/2)*2-w)
         x = torch.nn.ReplicationPad2d((0, paddingRight, 0, paddingBottom))(x)
 
+        h, w = sigma.size()[-2:]
+        paddingBottom = int(np.ceil(h/2)*2-h)
+        paddingRight = int(np.ceil(w/2)*2-w)
+        sigma = torch.nn.ReplicationPad2d((0, paddingRight, 0, paddingBottom))(sigma)
+        sigma = self.m_down(sigma)
+        sigma = sigma[:,0,:,:].reshape(1, 1, sigma.size()[-2], sigma.size()[-1])
+
         x = self.m_down(x)
         # m = torch.ones(sigma.size()[0], sigma.size()[1], x.size()[-2], x.size()[-1]).type_as(x).mul(sigma)
-        m = sigma.repeat(1, 1, x.size()[-2], x.size()[-1])
+        #m = sigma.repeat(1, 1, x.size()[-2], x.size()[-1])
+        print(sigma.size())
+        m = sigma
+        print('coco')
+        print(x.size())
+        print(m.size())
+        print('caca')
         x = torch.cat((x, m), 1)
         x = self.model(x)
         x = self.m_up(x)
