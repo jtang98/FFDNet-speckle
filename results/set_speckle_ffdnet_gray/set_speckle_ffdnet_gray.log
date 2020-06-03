@@ -35,3 +35,33 @@
 20-05-28 17:59:07.671 : head.bmp - PSNR: 19.27 dB; SSIM: 0.2477.
 20-05-28 17:59:07.940 : woman.bmp - PSNR: 16.29 dB; SSIM: 0.2428.
 20-05-28 17:59:07.940 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 17.44 dB; SSIM: 0.2900
+20-05-28 18:06:36.160 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 18:06:36.161 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 18:06:36.161 : testsets/set_speckle
+20-05-28 18:06:37.637 : baby.bmp - PSNR: 15.24 dB; SSIM: 0.2191.
+20-05-28 18:06:37.937 : bird.bmp - PSNR: 20.07 dB; SSIM: 0.3153.
+20-05-28 18:06:38.191 : butterfly.bmp - PSNR: 15.80 dB; SSIM: 0.5372.
+20-05-28 18:06:38.470 : head.bmp - PSNR: 19.27 dB; SSIM: 0.2477.
+20-05-28 18:06:38.752 : woman.bmp - PSNR: 15.23 dB; SSIM: 0.3846.
+20-05-28 18:06:38.752 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 17.12 dB; SSIM: 0.3408
+20-05-28 18:07:15.688 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 18:07:15.688 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 18:07:15.688 : testsets/set_speckle
+20-05-28 18:07:17.091 : baby.bmp - PSNR: 15.24 dB; SSIM: 0.2191.
+20-05-28 18:07:17.397 : bird.bmp - PSNR: 20.07 dB; SSIM: 0.3153.
+20-05-28 18:07:17.632 : butterfly.bmp - PSNR: 15.54 dB; SSIM: 0.3882.
+20-05-28 18:07:17.918 : head.bmp - PSNR: 19.27 dB; SSIM: 0.2477.
+20-05-28 18:07:18.189 : woman.bmp - PSNR: 15.23 dB; SSIM: 0.3846.
+20-05-28 18:07:18.191 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 17.07 dB; SSIM: 0.3110
+20-05-28 18:44:35.974 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 18:44:35.975 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 18:44:35.975 : testsets/set_speckle
+20-05-28 18:44:37.695 : baby.bmp - PSNR: 15.24 dB; SSIM: 0.2191.
+20-05-28 18:44:38.007 : bird.bmp - PSNR: 20.07 dB; SSIM: 0.3153.
+20-05-28 18:44:38.252 : butterfly.bmp - PSNR: 15.54 dB; SSIM: 0.3882.
+20-05-28 18:44:38.525 : head.bmp - PSNR: 19.27 dB; SSIM: 0.2477.
+20-05-28 18:44:38.809 : woman.bmp - PSNR: 15.23 dB; SSIM: 0.3846.
+20-05-28 18:44:38.810 : Average PSNR/SSIM(RGB) - set_speckle_ffdnet_gray - PSNR: 17.07 dB; SSIM: 0.3110
+20-05-28 18:45:14.467 : Model path: model_zoo/ffdnet_gray.pth
+20-05-28 18:45:14.468 : model_name:ffdnet_gray, model sigma:30, image sigma:30
+20-05-28 18:45:14.468 : testsets/set_speckle
