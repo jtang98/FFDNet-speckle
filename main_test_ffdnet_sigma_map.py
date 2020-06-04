@@ -3,6 +3,7 @@ import logging
 
 import numpy as np
 from collections import OrderedDict
+import scipy.signal
 
 import torch
 
@@ -61,10 +62,10 @@ def main():
     # Preparation
     # ----------------------------------------
 
-    noise_level_img = 30                 # noise level for noisy image
+    noise_level_img = 0                  # noise level for noisy image, DOESN'T APPLY HERE
     noise_level_model = noise_level_img  # noise level for model
     model_name = 'ffdnet_gray'           # 'ffdnet_gray' | 'ffdnet_color' | 'ffdnet_color_clip' | 'ffdnet_gray_clip'
-    testset_name = 'set_speckle'         # test set,  'bsd68' | 'cbsd68' | 'set12'
+    testset_name = 'set_speckle_L1'         # test set,  'bsd68' | 'cbsd68' | 'set12'
     need_degradation = False              # default: True
     show_img = False                     # default: False
 
@@ -142,17 +143,6 @@ def main():
         # logger.info('{:->4d}--> {:>10s}'.format(idx+1, img_name+ext))
         img_L = util.imread_uint(img, n_channels=n_channels)
 
-        # Passage au log
-        #img_L[np.where(img_L == 0)] += 1
-        #img_L = np.log(img_L)
-        #img_L = (img_L * 255.0 / (np.max(img_L) + 10**(-15))).astype('int')
-        #import skimage.exposure
-        #img_L = (skimage.exposure.equalize_hist(img_L) * 255.0).astype('int')
-        #print(img_L[0:10,0:10,0])
-        # Fin passage au log
-        # Écart-type sigma
-        import scipy.signal        #
-
         img_L = util.uint2single(img_L)
 
         noise_level_array = np.sqrt(1 - np.pi / 4.0) * np.sqrt(scipy.signal.convolve2d(img_L[:,:,0]**2, np.ones((3,3)) / 9.0, mode='same'))
@@ -168,10 +158,8 @@ def main():
         img_L = util.single2tensor4(img_L)
         img_L = img_L.to(device)
 
-        print('bim')
-        #sigma = torch.full((1,1,1,1), noise_level_model/255.).type_as(img_L)
-        sigma = torch.tensor(np.array([[noise_level_array]])).type_as(img_L) #Passer en (1, 1, X, Y) ?
-        print('bam')
+        #sigma = torch.full((1,1,1,1), noise_level_model/255.).type_as(img_L) # Fixed
+        sigma = torch.tensor(np.array([[noise_level_array]])).type_as(img_L)
 
         # ------------------------------------
         # (2) img_E

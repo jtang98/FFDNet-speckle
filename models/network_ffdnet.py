@@ -68,12 +68,7 @@ class FFDNet(nn.Module):
         x = self.m_down(x)
         # m = torch.ones(sigma.size()[0], sigma.size()[1], x.size()[-2], x.size()[-1]).type_as(x).mul(sigma)
         #m = sigma.repeat(1, 1, x.size()[-2], x.size()[-1])
-        print(sigma.size())
         m = sigma
-        print('coco')
-        print(x.size())
-        print(m.size())
-        print('caca')
         x = torch.cat((x, m), 1)
         x = self.model(x)
         x = self.m_up(x)
