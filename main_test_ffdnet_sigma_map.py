@@ -4,6 +4,7 @@ import logging
 import numpy as np
 from collections import OrderedDict
 import scipy.signal
+import matplotlib.pyplot as plt
 
 import torch
 
@@ -166,9 +167,16 @@ def main():
         # ------------------------------------
 
         img_E = model(img_L, sigma)
-        print('bloup')
 
-        img_E = util.tensor2uint(img_E) # With equalization
+        img_E = util.tensor2uint(img_E)
+
+        img_L_uint = util.tensor2uint(img_L)
+        img_E[img_E == 0] += 1
+        img_ratio = ((img_L_uint / img_E)**2).astype('float64')
+        img_ratio = (img_ratio * np.mean(img_L_uint)).astype('uint8')
+
+        plt.hist(img_ratio.ravel(), bins='auto',density=True)
+        plt.show()
 
         if need_H:
 
@@ -189,11 +197,20 @@ def main():
             logger.info('{:s} - PSNR: {:.2f} dB; SSIM: {:.4f}.'.format(img_name+ext, psnr, ssim))
             util.imshow(np.concatenate([img_E, img_H], axis=1), title='Recovered / Ground-truth') if show_img else None
 
+            # --------------------------------
+            # Noise histogram, variation coefficient, average coefficient TODO
+            # --------------------------------
+            m_A = np.mean(img_ratio.ravel())
+            sigma_A = np.std(img_ratio.ravel())
+            coeff_var_A = sigma_A / m_A
+            print('Intensity variation coefficient {:.4f}'.format(coeff_var_A))
+
         # ------------------------------------
         # save results
         # ------------------------------------
 
         util.imsave(img_E, os.path.join(E_path, img_name+ext))
+        util.imsave(img_ratio, os.path.join(E_path, img_name+'_ratio'+ext))
 
     if need_H:
         ave_psnr = sum(test_results['psnr']) / len(test_results['psnr'])

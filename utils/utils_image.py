@@ -291,15 +291,6 @@ def tensor2uint(img):
         img = np.transpose(img, (1, 2, 0))
     return np.uint8((img*255.0).round())
 
-# convert 2/3/4-dimensional torch tensor to uint
-def tensor2uint_w_histeq(img):
-    img = img.data.squeeze().float().clamp_(0, 1).cpu().numpy()
-    if img.ndim == 3:
-        img = np.transpose(img, (1, 2, 0))
-    import skimage.exposure
-    img = skimage.exposure.equalize_hist(img)
-    return np.uint8((img*255.0).round())
-
 
 # --------------------------------------------
 # numpy(single) (HxWxC) <--->  tensor
